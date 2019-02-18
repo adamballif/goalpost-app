@@ -18,10 +18,10 @@ class CreateGoalVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
     }
     
     @IBAction func nextBtnWasPressed(_ sender: Any) {
+        
     }
    
     @IBAction func longTermBtnWasPressed(_ sender: Any) {
@@ -31,7 +31,7 @@ class CreateGoalVC: UIViewController {
         }
     
     @IBAction func backBtnWasPressed(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        dismissDetail()
     }
     
     
